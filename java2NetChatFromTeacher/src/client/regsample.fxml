@@ -1,0 +1,21 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox fx:controller="client.RegController"
+      xmlns:fx="http://javafx.com/fxml" alignment="CENTER">
+    <Label text="enter login"/>
+    <TextField fx:id="loginFild"/>
+    <Label text="enter password"/>
+    <TextField fx:id="passFild"/>
+    <Label text="enter nickname"/>
+    <TextField fx:id="nickFild"/>
+    <Label text="information"/>
+    <TextField fx:id="information"/>
+
+
+    <HBox fx:id="bottomPanel">
+     <Button fx:id="buttonReg"   text="registrate" onAction="#clickReg"/>
+    <Button fx:id="buttonClose"   text="close" onAction="#clickClose"/>
+    <Button fx:id="buttonEdit"   text="edit" onAction="#clickEdit"/>
+    </HBox>
+
+</VBox>
