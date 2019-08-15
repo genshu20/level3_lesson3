@@ -22,7 +22,7 @@ public class ClientHandler {
         in=new DataInputStream(socket.getInputStream());
         out=new DataOutputStream(socket.getOutputStream());
 
-        new Thread(()-> {
+        server.executorService.execute(new Thread(()-> {
                 try {
                     socket.setSoTimeout(60000);
 //                    new Thread(()-> {
@@ -123,7 +123,7 @@ public class ClientHandler {
                     server.unsubscribe(this);
                     System.out.println("client is disconnect");
                 }
-        }).start();
+        }));
         } catch (IOException e) {
             e.printStackTrace();
         }
