@@ -1,0 +1,41 @@
+2019-08-18 13:25:26 INFO  Server:33 - the server is running
+2019-08-18 13:36:01 INFO  Server:33 - the server is running
+2019-08-18 13:37:59 INFO  Server:33 - the server is running
+2019-08-18 13:39:02 INFO  Server:33 - the server is running
+2019-08-18 13:39:16 INFO  Server:38 - client is connected
+2019-08-18 13:45:09 INFO  Server:33 - the server is running
+2019-08-18 13:46:42 INFO  Server:33 - the server is running
+2019-08-18 13:47:29 INFO  Server:33 - the server is running
+2019-08-18 13:50:05 INFO  Server:33 - the server is running
+2019-08-18 13:52:53 INFO  Server:33 - the server is running
+2019-08-18 13:53:45 INFO  Server:33 - the server is running
+2019-08-18 14:04:06 INFO  Server:33 - the server is running
+2019-08-18 14:04:26 INFO  Server:38 - client is connected
+2019-08-18 14:04:26 INFO  Server:81 - nick1 is authorized
+2019-08-18 14:19:31 INFO  Server:33 - the server is running
+2019-08-18 14:19:47 INFO  Server:38 - client is connected
+2019-08-18 14:19:47 INFO  Server:83 - nick1 is authorized
+2019-08-18 14:19:52 INFO  Server:67 - nick1 sent all: eeeeeeeeeeeeeeeeeeeeeee
+2019-08-18 15:07:26 INFO  Server:89 - nick1 is disconnected
+2019-08-19 14:57:24 INFO  Server:33 - the server is running
+2019-08-19 14:57:49 INFO  Server:33 - the server is running
+2019-08-19 15:04:59 INFO  Server:33 - the server is running
+2019-08-19 15:07:13 INFO  Server:33 - the server is running
+2019-08-19 15:11:37 INFO  Server:33 - the server is running
+2019-08-19 15:11:54 INFO  Server:38 - client is connected
+2019-08-19 15:11:54 INFO  Server:85 - nick1 is authorized
+2019-08-19 15:12:07 INFO  Server:91 - nick1 is disconnected
+2019-08-19 15:22:41 INFO  Server:12 - the server is stopped
+2019-08-19 15:22:42 INFO  Server:33 - the server is running
+2019-08-19 15:24:11 INFO  Server:33 - the server is running
+2019-08-19 22:36:36 INFO  Server:33 - the server is running
+2019-08-19 22:37:09 INFO  Server:38 - client is connected
+2019-08-19 22:37:09 INFO  Server:83 - nick1 is authorized
+2019-08-19 22:37:55 INFO  Server:38 - client is connected
+2019-08-19 22:37:55 INFO  Server:83 - nick2 is authorized
+2019-08-19 22:38:11 INFO  Server:67 - nick2 sent all: qqqqqqqqqqqqqqqqqq
+2019-08-19 22:38:29 INFO  Server:75 - nick2 sent to nick2: wwwwwwwwwwwwwww
+2019-08-19 22:38:42 INFO  Server:75 - nick2 sent to nick1: eeeeeeeeeeeeeeeeeeeeee
+2019-08-19 22:40:22 INFO  Server:75 - nick2 sent to nick1: да
+2019-08-19 22:40:39 INFO  Server:89 - nick2 is disconnected
+2019-08-19 22:40:46 INFO  Server:89 - nick1 is disconnected

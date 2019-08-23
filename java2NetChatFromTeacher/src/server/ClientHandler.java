@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
+import java.util.Arrays;
+import java.util.List;
 
 public class ClientHandler {
     private Server server;
@@ -14,6 +16,7 @@ public class ClientHandler {
     DataOutputStream out;
     private String nick;
     private  String login;
+    static final List<String> DENIED= Arrays.asList(new String[]{"да","нет","чёрный","чёрная","чёрное","черный","черная","черное","белый","белая","белое"});
 
     public ClientHandler(Server server, Socket socket) {
         try {
@@ -92,11 +95,19 @@ public class ClientHandler {
                         }
 
                         if (str.startsWith("/w ")) {
-                            String[] token = str.split(" +", 3);
+                            String[] token = str.split(" ", 3);
                             server.broadcastMsg(token[2], nick, token[1]);
                         } else {
-                            System.out.println(str);
-                            server.broadcastMsg(str, nick);
+                            String[]token=str.split(" ");
+                            for(String s:token){
+                                if(DENIED.contains(s)){
+                                    out.writeUTF("Вы проиграли");
+                            }else{
+                                    System.out.println(str);
+                                    server.broadcastMsg(str, nick);
+                                }
+                            }
+
                         }
                     }
                 }catch (SocketTimeoutException e){
