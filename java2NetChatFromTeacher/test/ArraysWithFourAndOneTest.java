@@ -1,10 +1,10 @@
-package testing;
-
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import testing.ArraysWithFourAndOne;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -24,7 +24,7 @@ public class ArraysWithFourAndOneTest {
         this.oneAndFour = oneAndFour;
         this.oneAndFourRes = oneAndFourRes;
     }
-    @Parameterized.Parameters
+    @Parameters
     public static Collection data(){
         return Arrays.asList(new Object[][]{
                 {new int[]{2,3,4,5},new int[]{5},new int[]{1,1,1},false},
